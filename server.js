@@ -15,8 +15,8 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
   
-   origin: 'http://localhost:3000',
-  // origin:'https://iconnectsocial.netlify.app',
+  //  origin: 'http://localhost:3000',
+  origin:'https://iconnectsocialmedia.netlify.app/',
     methods: ["GET", "POST"],
   },
 });
